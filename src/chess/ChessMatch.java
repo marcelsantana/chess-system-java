@@ -18,6 +18,7 @@ public class ChessMatch {
 		ChessPiece[][] mat = new ChessPiece[board.getRows()][board.getColumns()];
 		for (int i=0; i<board.getRows(); i++) {
 			for (int j=0; j<board.getColumns(); j++) {
+				//Downcast (ChessPiece) para interpretar como uma peça de xadrez não como uma peça comum
 				mat[i][j] = (ChessPiece) board.piece(i, j);
 			}
 		}
