@@ -1,5 +1,9 @@
 package application;
 
+/* 
+ * Command to exec the program in CMD
+ * java application/Program 
+ */
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
